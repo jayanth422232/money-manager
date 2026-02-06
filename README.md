@@ -35,6 +35,8 @@ Money Manager is a full-stack web application designed to help users manage pers
 - Frontend: Vercel
 - Backend: Render / Railway
 
+## 📂 Project Structure
+
 money-manager/
 ├── frontend/
 │ ├── src/
@@ -53,5 +55,30 @@ money-manager/
 ├── .gitignore
 └── README.md
 
-## 📂 Project Structure
+
+## ⚙️ Environment Variables
+
+### Frontend
+VITE_API_URL=<backend_url>
+
+
+### Backend
+MONGO_URI=<mongodb_atlas_connection_string>
+PORT=5000
+
+
+## ▶️ Run the Project Locally
+
+### Clone the repository
+```bash
+git clone https://github.com/<your-username>/money-manager.git
+cd money-manager
+
+Run Backend
+cd backend
+npm install
+npm start
+
+
+
 
