@@ -38,28 +38,44 @@ Money Manager is a full-stack web application designed to help users manage pers
 ## 📂 Project Structure
 
 money-manager/
+
 ├── frontend/
+
 │ ├── src/
+
 │ │ ├── components/
+
 │ │ ├── pages/
+
 │ │ ├── App.jsx
+
 │ │ └── index.css
+
 │ └── package.json
+
 │
+
 ├── backend/
+
 │ ├── models/
+
 │ ├── routes/
+
 │ ├── server.js
+
 │ └── package.json
+
 │
+
 ├── .gitignore
+
 └── README.md
 
 
 ## ⚙️ Environment Variables
 
 ### Frontend
-VITE_API_URL=<backend_url>
+VITE_API_URL=<frontend_url>
 
 
 ### Backend
@@ -79,19 +95,15 @@ cd backend
 npm install
 npm start
 
-Backend runs on:
-
-http://localhost:5000
 
 Run Frontend
 cd frontend
 npm install
 npm run dev
 
+Backend runs on: http://localhost:5000
 
-Frontend runs on:
-
-http://localhost:5173
+Frontend runs on: http://localhost:5173
 
 
 
