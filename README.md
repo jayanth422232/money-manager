@@ -63,7 +63,7 @@ VITE_API_URL=<backend_url>
 
 
 ### Backend
-MONGO_URI=<mongodb_atlas_connection_string>
+MONGO_URI=mongodb+srv://jayanth422232:Vinay&181104@cluster0.dtmpini.mongodb.net/money-manager?appName=Cluster0
 PORT=5000
 
 
@@ -79,6 +79,19 @@ cd backend
 npm install
 npm start
 
+Backend runs on:
+
+http://localhost:5000
+
+Run Frontend
+cd frontend
+npm install
+npm run dev
+
+
+Frontend runs on:
+
+http://localhost:5173
 
 
 
